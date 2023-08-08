@@ -9,6 +9,7 @@ const CourseSchedule = () => {
         display: "flex",
         "justify-content": "center",
         alignItems: "center",
+        padding: "1rem",
       }}
     >
       <table>

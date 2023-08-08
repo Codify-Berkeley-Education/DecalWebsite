@@ -11,4 +11,13 @@ export const schedule: lecture[] = [
       "https://docs.google.com/presentation/d/105P1oNZwBpHfMQLeTnaNQtLMHhRsotx0OHdm4ki6Hws/edit?usp=sharing",
     lectureCodeLink: "hi",
   },
+  {
+    title: "JavaScript",
+  },
+  {
+    title: "TypeScript",
+  },
+  {
+    title: "API Basics",
+  },
 ];

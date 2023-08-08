@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Codify Education Program",
+  tagline: "Learn to code with Codify!",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
@@ -77,6 +77,7 @@ const config = {
             label: "Course Content",
           },
           { to: "Policies", label: "Course Policies", position: "left" },
+          { to: "Enroll", label: "Enroll", position: "left" },
           {
             href: "https://github.com/facebook/docusaurus",
             label: "GitHub",

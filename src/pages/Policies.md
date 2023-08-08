@@ -42,6 +42,11 @@ All assignments may be turned in late, however there is a flat 20% grade penalty
 
 While the education program is not an official university recognized course, Codify still issues a final grade percentage in the course for the purpose of offering acceptance into the organization following the completion of the bootcamp. There are three relevant grade bins a student can fall into: automatic acceptance, preferred application, and no application benefit. Students who earn 95% of all possible points will be automatically invited to join the Codify fellowship program or a client project team. Students who earn 85% of all possible points are not automatically guaranteed acceptance, but are given preferential consideration in applying for the Codify fellowship program. Students who earn less than 85% of all possible points will still have learned a great deal of full stack skills which will bolster their application to Codify, but they are not given any preferential treatment over other applicants.
 
+<div style={{
+        display: "flex",
+        "justify-content": "center",
+        alignItems: "center",
+      }}>
 <table>
   <tr>
    <td>Attendance
@@ -62,5 +67,6 @@ While the education program is not an official university recognized course, Cod
    </td>
   </tr>
 </table>
+</div>
 
 Numerous extra credit opportunities will be offered on assignments during the semester, and on the final project.
