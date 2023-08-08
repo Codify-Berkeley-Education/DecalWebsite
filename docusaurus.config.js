@@ -7,19 +7,19 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Codify Education Program",
-  tagline: "Learn to code with Codify!",
+  tagline: "Learn Full Stack Development with Codify!",
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://Codify-Berkeley-Education.github.io/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: "/DecalWebsite",
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "Codify-Berkeley-Education", // Usually your GitHub org/user name.
+  projectName: "DecalWebsite", // Usually your repo name.
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -79,7 +79,7 @@ const config = {
           { to: "Policies", label: "Course Policies", position: "left" },
           { to: "Enroll", label: "Enroll", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/Codify-Berkeley-Education",
             label: "GitHub",
             position: "right",
           },
@@ -101,16 +101,12 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Codify Discord",
+                href: "https://discord.com/invite/NHnmN7ks7F",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Codify Instagram",
+                href: "https://www.instagram.com/codifyberkeley",
               },
             ],
           },
@@ -118,8 +114,12 @@ const config = {
             title: "More",
             items: [
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Main Codify Website",
+                href: "https://codifyberkeley.org/",
+              },
+              {
+                label: "Codify GitHub",
+                href: "https://github.com/Codify-Club-Berkeley",
               },
             ],
           },
