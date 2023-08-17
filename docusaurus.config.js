@@ -20,6 +20,7 @@ const config = {
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "Codify-Berkeley-Education", // Usually your GitHub org/user name.
   projectName: "DecalWebsite", // Usually your repo name.
+  deploymentBranch: "pages",
 
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
