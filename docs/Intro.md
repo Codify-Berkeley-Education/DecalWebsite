@@ -8,4 +8,6 @@ This program was created prepare students to work on Codify projects, and to giv
 
 This is our first semester running the education program in this format, and we welcome any and all feedback on assignments, lectures, and readings. However, please keep in mind that it is largely just two students running a completely open access course.
 
-All course materials is under the course content tab. Please make sure to read through our course policies, and officially sign up for the program through the form on the enroll tab.
+All course materials are under the course content tab. Please make sure to read through our course policies, and officially sign up for the program through the form on the enroll tab.
+
+If you notice any errors in course materials, feel free to make a PR on the [website repository](https://github.com/Codify-Berkeley-Education/DecalWebsite). If there are errors in our slides or lecture recordings, let us know by emailing codify.berkeley@gmail.com and including [Education] in the subject line.
