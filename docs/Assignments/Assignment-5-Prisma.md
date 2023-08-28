@@ -1,4 +1,4 @@
----
+<!-- ---
 sidebar_position: 3
 ---
 
@@ -18,4 +18,4 @@ Take a look at the **schema.prisma** file. This outlines the structure of the da
 
 # Part 2
 
-# Part 3
+# Part 3 -->
