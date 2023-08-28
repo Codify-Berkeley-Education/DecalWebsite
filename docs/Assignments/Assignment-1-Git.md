@@ -8,7 +8,7 @@ sidebar_position: 1
 
 ## Assignment Overview
 
-This assignment has two parts. In Assignment-1.1, you will create your own repository from scratch and add a file to it. It will cover the basics of git and GitHub. In Assignment-1.2, you will clone a starter repository, and learn about creating and merging branches.
+This assignment has two parts. In Assignment-1.1, you will create your own repository from scratch and add a file to it. It will cover the basics of git and GitHub. In Assignment-1.2, you will clone a starter repository, and learn about creating and merging branches. Both repositories will be turned in to GitHub classroom for auto grading.
 
 :::caution
 This assignment gives very detailed instructions and walkthrough of how to complete it because a good understanding of Git and GitHub is essential to success as a developer and in this course. Future assignments will give far less detailed instructions.
@@ -258,6 +258,10 @@ From here, you can name your pull request, write a description of all changes, a
 
 The next screen will show you the details of the pull request. Other collaborators on the repository can leave comments of the pull request, or conduct a formal review. In this case, there is nothing we need to review, so go ahead and merge the pull request. And delete the branch.
 
+:::tip
+It is best practice to select the option to "squash and merge" instead of just merging the pull request. This will squash all of the commits made on the feature branch into a single commit once it is merged onto the main branch. As feature branches can easily have 20+ commits each, it is cumbersome to view all of these commits on the main branch. Squashing allows each change to the main branch to be viewed as a single easy to understand commit.
+:::
+
 ![Merge-PR](../../static/img/assignment-images/Assignment-1/View-PR.png)
 
 Now go back to your local repository and **>git pull** from the main branch. You should see your changes reflected in file1.txt. You may also notice that if you run **>git branch**, branch1 still appears despite the fact that we deleted it. This is normal and reflects an important feature of Git's distributed nature. Deleting the branch on the remote repository does not delete the branch locally. This is the same reason we had to pull the changes from the remote repository before we saw the updates reflected in our local main branch.
@@ -291,10 +295,14 @@ The auto grader will run the following checks on your assignments. Each check is
 
 ### Assignment 1.1
 
-1. The README.MD file contains the exact text of described in the tutorial
+1. The README.MD file contains the exact text of described in the assignment
 2. There are at least two commits in the repository to the main branch
 
 ### Assignment 1.2
 
-1. file1.txt must contain the line "You are student number 3" and at least two lines after it.
-2. There are two commits on the main branch, one for each branch we merged into main
+1. file1.txt must contain the line "You are student number 3"
+2. There must be two closed pull requests
+3. There are at least two commits on the main branch, one for each branch we merged into main. These commits must be auto generated commits from merging pull request numbers 1 and 2.
+4. There must only be one active branch (the main branch)
+
+Unfortunately, due to the nature of the auto grader for this specific assignment, if you are not passing the auto grader checks you may need to start over and redo one either part 1.1 or 1.2 entirely. This is because the auto grader is checking for specific branch names and pull request numbers. On all future assignments in this course, this will not be the case, and you will only be graded on the final state of your submission.

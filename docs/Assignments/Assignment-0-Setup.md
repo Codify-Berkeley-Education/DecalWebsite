@@ -28,7 +28,7 @@ If you have not already, submit the google form found under the enroll tab. Also
 1. [Gradescope section, join code RKXBW4](https://www.gradescope.com/)
 2. [Discord Server](https://discord.gg/seFp4RgnZ4)
 
-Once in the discord server, navigate to the #join-bootcamp chanel and click the book reaction to self assign yourself the Bootcamp Member roll. We will be using discord for the majority of important course communication and for Q and A.
+Once in the discord server, navigate to the #join-bootcamp chanel and click the book reaction to self assign yourself the Bootcamp Member roll. We will be using discord for the majority of important course communication and for Q and A. Also, change your display name to just your first and last name in the discord server so that we know who you are ;)
 
 ## Useful VS Code Extensions
 
