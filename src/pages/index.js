@@ -4,6 +4,7 @@ import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import CourseSchedule from "../components/CourseSchedule";
+import GCal from "../components/GCal";
 
 import styles from "./index.module.css";
 
@@ -27,7 +28,10 @@ export default function Home() {
       description="Description will go into a meta tag in <head />"
     >
       <HomepageHeader />
+
       <CourseSchedule />
+
+      <GCal />
     </Layout>
   );
 }
