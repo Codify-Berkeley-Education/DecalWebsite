@@ -79,6 +79,7 @@ const config = {
           },
           { to: "Policies", label: "Course Policies", position: "left" },
           { to: "Enroll", label: "Enroll", position: "left" },
+          { to: "Resources", label: "Resources", position: "left" },
           {
             href: "https://github.com/Codify-Berkeley-Education",
             label: "GitHub",
