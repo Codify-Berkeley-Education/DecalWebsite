@@ -31,15 +31,18 @@ const CourseSchedule = () => {
                     Slides
                   </a>
                 )}
-                &nbsp;
+
                 {item.lectureCodeLink && (
-                  <a
-                    href={item.lectureCodeLink}
-                    target="_blank"
-                    rel="noreferrer"
-                  >
-                    Lecture Code
-                  </a>
+                  <>
+                    &nbsp; : &nbsp;
+                    <a
+                      href={item.lectureCodeLink}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Lecture Code
+                    </a>
+                  </>
                 )}
               </td>
             </tr>
