@@ -44,6 +44,18 @@ const CourseSchedule = () => {
                     </a>
                   </>
                 )}
+                {item.recordingLink && (
+                  <>
+                    &nbsp; : &nbsp;
+                    <a
+                      href={item.recordingLink}
+                      target="_blank"
+                      rel="noreferrer"
+                    >
+                      Lecture Recording
+                    </a>
+                  </>
+                )}
               </td>
             </tr>
           ))}

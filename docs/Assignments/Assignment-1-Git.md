@@ -4,9 +4,17 @@ sidebar_position: 1
 
 # Assignment 1: Git and Command Line Basics
 
+:::info
+Get started on this assignment after lecture 1. Assignment is due 9/15/23 at 11:59pm.
+:::
+
 ## Assignment Link
 
 [Accept the assignment](https://classroom.github.com/a/DTwZ-B86)
+
+:::info
+After accepting this first assignment, you will be prompted to join the GitHub classroom for the course. Select your name from the list to link your GitHub account, or if your name does not appear then add it.
+:::
 
 ## Assignment Overview
 

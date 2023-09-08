@@ -2,6 +2,7 @@ type lecture = {
   title: string;
   slidesLink?: string;
   lectureCodeLink?: string;
+  recordingLink?: string;
 };
 
 export const schedule: lecture[] = [
@@ -9,6 +10,7 @@ export const schedule: lecture[] = [
     title: "Course Overview and Git",
     slidesLink:
       "https://docs.google.com/presentation/d/105P1oNZwBpHfMQLeTnaNQtLMHhRsotx0OHdm4ki6Hws/edit?usp=sharing",
+    recordingLink: "https://www.youtube.com/watch?v=HNwaTFEUHSs",
   },
   {
     title: "JavaScript",
