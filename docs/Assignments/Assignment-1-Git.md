@@ -4,11 +4,13 @@ sidebar_position: 1
 
 # Assignment 1: Git and Command Line Basics
 
-## Assignment Purpose and Goals
+## Assignment Link
+
+[Accept the assignment](https://classroom.github.com/a/DTwZ-B86)
 
 ## Assignment Overview
 
-This assignment has two parts. In Assignment-1.1, you will create your own repository from scratch and add a file to it. It will cover the basics of git and GitHub. In Assignment-1.2, you will clone a starter repository, and learn about creating and merging branches. Both repositories will be turned in to GitHub classroom for auto grading.
+This assignment has two parts. In Assignment-1.1, you will create your own repository from scratch and add a file to it. It will cover the basics of git and GitHub. In Assignment-1.2, you will clone a starter repository, and learn about creating and merging branches.
 
 :::caution
 This assignment gives very detailed instructions and walkthrough of how to complete it because a good understanding of Git and GitHub is essential to success as a developer and in this course. Future assignments will give far less detailed instructions.
@@ -194,19 +196,16 @@ Hello world from the terminal \
 Hello world from GitHub
 ```
 
-You are now finished with the first part of the assignment. You will get full credit if your README.MD file contains the two lines we added and your repo has at least two commits.
+You are now finished with the first part of the assignment!
 
 ## Part 3: Clone and work with an existing git repository
 
 To you want to make a copy of a remote repository on your local device, you need to "clone" the repository using a url. In this case, you will need to clone the starter repository.
 
-:::note
-Most starter repositories in this course will be assigned through GitHub Classroom. We are not doing this for this assignment because we want to show you the normal way you would work clone a remote repository.
-:::
-
-1. Navigate to the [starter repo](https://github.com/Codify-Berkeley-Education/Assignment-1.2-Starter) and click the "code" dropdown. Copy the clone HTTPS url.
-2. Run **>git clone [repo-url]** in your command line in the folder you want the repository you want to clone into.
-3. Open the newly created folder in VS Code
+1. Accept the assignment if you have not already with the link at the top of the page.
+2. Navigate to the in the starter repo, click the "code" dropdown. Copy the clone HTTPS url.
+3. Run **>git clone [repo-url]** in your command line in the folder you want the repository you want to clone into.
+4. Open the newly created folder in VS Code
 
 Now that we have the new repository, we want to start making changes to it. Start by making two new branches named branch1 and branch2. Make sure to verify that the branches exist.
 
@@ -295,8 +294,7 @@ The auto grader will run the following checks on your assignments. Each check is
 
 ### Assignment 1.1
 
-1. The README.MD file contains the exact text of described in the assignment
-2. There are at least two commits in the repository to the main branch
+In order to grade this assignment, we would have had to use have you clone a repository with tests already in it instead of having you create a repository from scratch. As a result, there is nothing to turn in for the first part of the assignment.
 
 ### Assignment 1.2
 
@@ -305,4 +303,4 @@ The auto grader will run the following checks on your assignments. Each check is
 3. There are at least two commits on the main branch, one for each branch we merged into main. These commits must be auto generated commits from merging pull request numbers 1 and 2.
 4. There must only be one active branch (the main branch)
 
-Unfortunately, due to the nature of the auto grader for this specific assignment, if you are not passing the auto grader checks you may need to start over and redo one either part 1.1 or 1.2 entirely. This is because the auto grader is checking for specific branch names and pull request numbers. On all future assignments in this course, this will not be the case, and you will only be graded on the final state of your submission.
+If you have any issues with the auto grader, or believe your submission should be passing the tests but does not, then please send a message in the Discord Server ASAP!
