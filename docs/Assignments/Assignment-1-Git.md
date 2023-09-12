@@ -12,6 +12,8 @@ Get started on this assignment after lecture 1. Assignment is due 9/15/23 at 11:
 
 [Accept the assignment](https://classroom.github.com/a/DTwZ-B86)
 
+**Due Date: Friday September 15th**
+
 :::info
 After accepting this first assignment, you will be prompted to join the GitHub classroom for the course. Select your name from the list to link your GitHub account, or if your name does not appear then add it.
 :::
@@ -299,6 +301,10 @@ Now merge and delete branch2. Congratulations! You have now finished your first 
 ## Part 4: Submission and grading
 
 The auto grader will run the following checks on your assignments. Each check is worth the same number of points.
+
+:::caution
+The auto grader is currently broken for this assignment. Submissions will be graded manually.
+:::
 
 ### Assignment 1.1
 

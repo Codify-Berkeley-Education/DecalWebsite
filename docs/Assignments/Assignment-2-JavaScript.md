@@ -6,11 +6,13 @@ sidebar_position: 2
 
 ## Assignment Link
 
-[Accept the assignment](https://classroom.github.com/)
+[Accept the assignment](https://classroom.github.com/a/6X0HWT0j)
+
+**Due Date: Wednesday September 20th**
 
 ## Assignment Overview
 
-The goal of this assignment is to get you familiar with JavaScript syntax; focussing on arrays, objects, and functions. None of the problems are designed to be overly difficult to complete conceptually. We also have several problems that can be completed using the map an filter methods, which will be extremely useful throughout the course. If you are struggling with map and filter, try solving the problem first using a for loop, and then convert your solution to using map and/or filter after.
+The goal of this assignment is to get you familiar with JavaScript syntax, focussing on arrays, objects, and functions. None of the problems are designed to be overly difficult to complete conceptually. We also have several problems that can be completed using the map an filter methods, which will be extremely useful throughout the course. If you are struggling with map and filter, try solving the problem first using a for loop, and then convert your solution to using map and/or filter after.
 
 ## Running the tests
 
@@ -42,13 +44,14 @@ describe("printIndex Function", () => {
 });
 ```
 
-Much like CS 61A or 61B, we run a series of tests on your solution code to verify it works properly. The tests that you have a local copy of are the exact same tests that we will use in the auto grader. We also use the same testing framework for more or less the entire first half of the course, so take some time to play around with it and learn how it works now.
+Much like CS 61A or 61B, we run a series of tests on your solution code to verify it works properly. The tests that you have a local copy of are the exact same tests that we will use in the auto grader. If all of the tests pass locally, they should all pass on the auto grader and you will get full credit on the assignment. We also use the same testing framework for more or less the entire first half of the course, so take some time to play around with it and learn how it works now.
 
 ### Run all tests in all testing files
 
 ```console
-npx vitest #Run in watch mode
-npx vitest run #Run the tests a single time
+npm install # Just run this once to install the vitest framework
+npx vitest # Run in watch mode
+npx vitest run # Run the tests a single time
 ```
 
 If you run a test in watch mode, the tests will rerun any time you make changes to a file. However, running all of the tests will bombard you with tons of failures for questions you have not even started working on yet.
@@ -77,7 +80,7 @@ Create the function printIndex in the Problem1.js file. Once you have defined th
 
 ## Problem 2: largestMystery
 
-Given an array of numbers, arr, and an arbitrary one argument function, mysteryFunc which returns a either true or false, return the largest number in arr that causes mysteryFunc to return true.
+Given an array of numbers, arr, and an arbitrary one argument function, mysteryFunc which returns a either true or false, return the largest number in arr that causes mysteryFunc to return true. If no number causes the function to return true, return "No number passes the function!"
 
 :::note
 mysteryFunc can be any function that returns a boolean. You will have to call mysteryFunc on every element or arr and you can't assume anything about how mysteryFunc works.
@@ -127,10 +130,15 @@ indexAndConcat(arr);
 
 ## Problem 5: Where's Waldo?
 
-Given an array of strings, return all an array of all of the strings containing the all lower case string "waldo". Additionally, we want to make sure that we can find waldo, so make all of the returned strings FULL UPPER CASE.
+Given an array of strings, return all an array of all of the strings containing the all lower case string "waldo". Be sure to ignore any instances of waldo besides the all lower case version. Additionally, we want to make sure that we can find waldo, so make all of the returned strings FULL UPPER CASE.
 
 ```javascript
-const arr = ["Who is waldo?", "where is he?", "what is waldo doing?"];
+const arr = [
+  "Who is waldo?",
+  "where is he?",
+  "what is waldo doing?",
+  "WalDo is already here",
+];
 uppercaseStringsContainingWaldo(arr); // Returns ["WHO IS WALDO?", "WHAT IS WALDO DOING?"]
 ```
 
@@ -181,3 +189,7 @@ expected = {
   age: 100,
 };
 ```
+
+## Submission
+
+All you need to do to submit this assignment is to push your latest changes to your main branch. After each new push, the auto grader will run all of the tests and you can view the output to verify that they all passed.
