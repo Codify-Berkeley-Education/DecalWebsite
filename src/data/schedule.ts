@@ -26,9 +26,14 @@ export const schedule: lecture[] = [
       "https://docs.google.com/presentation/d/1XR1-FW7A4egR6jCSyddYZLoIvqiFxl_CVhUmhvRUnkM/edit?usp=sharing",
     lectureCodeLink:
       "https://codesandbox.io/p/sandbox/lecture-3-typescript-hyshrm",
+    recordingLink: "https://www.youtube.com/watch?v=l9PMuyODbtU",
   },
   {
     title: "Asynchronous TypeScript and API Basics",
+    slidesLink:
+      "https://docs.google.com/presentation/d/1sm-f4ezR-QvKKy1deePRGL4PqjuXsjyLf0SasyJ_yQ8/edit?usp=sharing",
+    lectureCodeLink:
+      "https://github.com/Codify-Berkeley-Education/Lecture-4-Starter",
   },
   {
     title: "Relational Data Modeling and Prisma",

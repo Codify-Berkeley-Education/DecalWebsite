@@ -67,9 +67,10 @@ Given a professor, return the names of all the students the professor teaches in
 ```typescript
 // sorts the numbers in the list in increasing order
 list.sort((num1: number, num2: number) => num1 - num2);
+list.reverse(); // built in method will also do the opposite order of the sort function
 ```
 
-There is no runtime requirement for this problem. Assume all ages are unique, so there is no need to worry about ties. You should assume that only one professor teaches each class.
+There is no runtime requirement for this problem. Assume all ages are unique, so there is no need to worry about ties. You should assume that only one professor teaches each class. However, the same students may be in several classes taught by a professor. Make sure you don't have any duplicates in your array of students.
 
 ```typescript
 const professor: Professor = {
