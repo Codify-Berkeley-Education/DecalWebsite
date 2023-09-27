@@ -36,6 +36,11 @@ export const schedule: lecture[] = [
       "https://github.com/Codify-Berkeley-Education/Lecture-4-Starter",
   },
   {
-    title: "Relational Data Modeling and Prisma",
+    title: "Relational Data Modeling With Prisma",
+    slidesLink:
+      "https://docs.google.com/presentation/d/1AXPjYCqvqPdOl6n2udFTwS_GPLVdlzIy1YbBAt4Ep-k/edit?usp=sharing",
+  },
+  {
+    title: "Prisma Client and CRUD Operations",
   },
 ];
