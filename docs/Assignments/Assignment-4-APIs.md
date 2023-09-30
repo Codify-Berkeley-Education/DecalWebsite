@@ -6,6 +6,8 @@ sidebar_position: 4
 
 ## Assignment Link
 
+[Accept the Assignment](https://classroom.github.com/a/OVkTRCO2)
+
 ## Assignment Overview
 
 In this assignment, you will use the Spotify API to recommended songs based on a user's favorite songs, albums, and artists. We will walk you through making a few simple API calls yourself, and then let you free.
@@ -16,7 +18,7 @@ For a variety of reasons, this assignment will not have auto grader tests. First
 
 ## Setting up Bun
 
-For this assignment, we are trying out a new package manager and NodeJs alternative. Bun! Check out [the docs](https://bun.sh/docs/installation) to install it, and instead of using the prefix npm/npx, use bun to install packages or execute files. If you encounter issues using Bun on Windows, it may make sense to delete the package.json, and recreate the project with npm. If you have issues with this, please message in the discord and/or come to office hours.
+For this assignment, we are trying out a new package manager and NodeJs alternative. Bun! Check out [the docs](https://bun.sh/docs/installation) to install it, and instead of using the prefix npm/npx, use bun to install packages or execute files. If you encounter issues using Bun on Windows, it may make sense to delete the package.json, and recreate the project with npm. If you have issues with this, please message in the discord and/or come to office hours.Also check out the [Bun Release Video](https://www.youtube.com/watch?v=BsnCpESUEqM) for a rundown of the performance benefits over NodeJs.
 
 ## Access the Spotify API
 
@@ -468,7 +470,7 @@ We only specify a subset of the possible query parameters in our settings object
 
 ### Common Pitfalls and Useful Tips
 
-1. The keys of the settings object are the query parameters that you will need to use. You can use the [Object.entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries) function to get an array of all of the key value pairs in the object. I also used the .filter function to filter out any undefined keys, the map function to format the key value pairs into a string, and the .join function to join all of the key value pairs together into a single string separated by '&' characters to chain together the query parameters.
+1. The keys of the settings object are the query parameters that you will need to use. You can use the [Object.entries](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/entries) function to get an array of all of the key value pairs in the object. I also used the filter function to filter out any undefined keys, the map function to format the key value pairs into a string, and the join function to [join](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/join) all of the key value pairs together into a single string separated by '&' characters to chain together the query parameters.
 2. The recommendations endpoint does not accept albums! If any albums are passed into the seedResources array, you should ignore them.
 3. If you are having trouble properly formatting all of the query parameters, try to get the function working with a single song, a single artist, and an empty settings object before implementing the rest of the functionality.
 4. Make sure that all of your settings are within the range expected by the API!
@@ -482,3 +484,9 @@ Currently all of the functionality of our application is hidden behind a functio
 ### Actual User Sign In
 
 Accessing the web API through the a client access token only gives us read access to general Spotify data, and doesn't let us read or write any personal user data. Try implementing the [authorization code](https://developer.spotify.com/documentation/web-api/tutorials/code-pkce-flow) authentication flow, which does let you directly edit your user data through the API. Once you are able to edit your personal account information, try saving our recommended playlists to your profile!
+
+If you want any help implementing any of these extensions, let course staff know and we would be happy to help during office hours!
+
+## Submission
+
+As stated, there are no autograder tests for this assignment. However, please still give it your best effort, and push your changes to GitHub so that course staff can view them.
