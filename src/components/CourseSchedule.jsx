@@ -23,7 +23,7 @@ const CourseSchedule = () => {
         <tbody>
           {schedule.map((item, index) => (
             <tr key={item.id}>
-              <td>{index}</td>
+              <td>{index + 1}</td>
               <td>{item.title}</td>
               <td>
                 {item.slidesLink && (

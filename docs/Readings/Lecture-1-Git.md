@@ -2,13 +2,8 @@
 
 ## Additional Resources
 
-### Required
-
 - [Git Overview](https://www.youtube.com/watch?v=HkdAHXoRtos&list=PLyaKHuPBhH9rd0-oXZ2a8scC6ZJWCoK0Z)
 - [Atlassian Git Tutorials](https://www.atlassian.com/git/tutorials)
-
-### Supplemental
-
 - [Longer Git Overview](https://www.youtube.com/watch?v=DVRQoVRzMIY&list=PLyaKHuPBhH9rd0-oXZ2a8scC6ZJWCoK0Z&index=3) that is slower paced
 - [Pro Git Book](https://git-scm.com/book/en/v2) and the [Official Git Docs](https://git-scm.com/docs) contain everything you could ever want to know.
 

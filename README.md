@@ -30,6 +30,7 @@ The website is [deployed](https://codify-berkeley-education.github.io/DecalWebsi
 
 ```
 GIT_USER=<Your GitHub username> yarn deploy
+GIT_USER=aidansunbury yarn deploy #Example
 ```
 
 to publish the changes and update the website.
