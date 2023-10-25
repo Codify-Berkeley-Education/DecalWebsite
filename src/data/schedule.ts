@@ -52,4 +52,9 @@ export const schedule: lecture[] = [
       "https://github.com/Codify-Berkeley-Education/Lecture-6-Starter",
     recordingLink: "https://www.youtube.com/watch?v=Gvasj9MoIe4",
   },
+  {
+    title: "APIs in NextJS",
+    lectureCodeLink:
+      "https://github.com/Codify-Berkeley-Education/Lecture-7-Starter",
+  },
 ];
