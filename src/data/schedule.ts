@@ -57,4 +57,10 @@ export const schedule: lecture[] = [
     lectureCodeLink:
       "https://github.com/Codify-Berkeley-Education/Lecture-7-Starter",
   },
+  {
+    title: "HTML and DOM",
+    slidesLink:"https://docs.google.com/presentation/d/1Nr20ovtPfzI1zi9mQ-dv8AabkI5T4gQcZzBnABML4aE/edit?usp=sharing",
+    lectureCodeLink:
+      "https://github.com/Codify-Berkeley-Education/Lecture-8-starter",
+  }
 ];
